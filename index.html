@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Form Validation using JS by Aliyeva Aigerim</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> 
+  
+</head>
+<body>
+  <div class="wrapper">
+    <header style="color: white;">Sign In</header>
+    <form action="#">
+      <p style="color: white;"> If you don't have an account </p>
+      <p style="color: white;"> You can <a href="#">Register here!</a></p> <br>
+      <div class="field email">
+        <p style="color: white;"> Email </p>
+        <div class="input-area">
+          <input type="text" placeholder="Enter your email address">
+          <i class="icon fas fa-envelope"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">Try again</div>
+      </div>
+      <div class="field password">
+        <p style="color: white;"> Password</p>
+        <div class="input-area">
+          <input type="password" placeholder="Enter your Password">
+          <i class="icon fas fa-lock"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+        <div class="error error-txt">Try Again</div>
+      </div>
+      <div class="pass-txt"><a href="#">Forgot password?</a></div>
+      <input type="submit" value="Login">
+    </form>
+    <label style="color: white;">
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+     
+    </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
